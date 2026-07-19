@@ -1,35 +1,54 @@
-# AstroZen - Personal Portfolio Website
+ดูเหมือนว่าตอนคัดลอกไปวาง โครงสร้างของ Markdown (เช่น ตารางและโค้ดบล็อก) ด้านล่างสุดจะพังและรวมกันเป็นบรรทัดเดียวครับ
 
-AstroZen is a minimalist, accessible and responsive portfolio template for your personal portfolio website. It is built with Astro and TailwindCSS.
+คุณสามารถคัดลอกโค้ด Markdown ที่จัดรูปแบบถูกต้องสมบูรณ์ด้านล่างนี้ ไปวางทับในไฟล์ `README.md` ทั้งหมดได้เลยครับ:
 
-![zen-og](https://github.com/user-attachments/assets/7a72aaae-6652-4cd0-becc-8e6a3c224993)
+```markdown
+# Sukkamit Sinarpa - Personal Portfolio
 
-> [!NOTE]
-> The information contained in this template, including names, images, and content, is entirely fictitious and is intended solely to give the design a realistic appearance. Any coincidence with real-life people, events, or situations is purely coincidental. It is recommended that you replace this information with your own information.
+A personal portfolio website showcasing my projects, work experience, and technical skills as a **Backend, QA, and Full-Stack Developer**. Built with blazing-fast performance using [Astro](https://astro.build/) and styled with [Tailwind CSS](https://tailwindcss.com/).
 
-## 🔥 Features
+## 👨‍💻 About Me
 
-- [x] Minimalist design. clean and simple
-- [x] Mobile-first responsive layout
-- [x] SEO-friendly and accessible
-- [x] Easy to customize with a single configuration file
+I am a recent graduate with a Bachelor of Science in Digital Science and Technology (DST) from Mahidol University. I specialize in:
+- **Backend Development:** Node.js, NestJS, Express.js, RESTful APIs
+- **Database Management:** MongoDB, MySQL, PostgreSQL
+- **Quality Assurance (QA):** Manual Testing, Automated Testing (Robot Framework, Selenium)
+- **Frontend & UI:** React.js, Astro, Tailwind CSS, Flutter, Figma
 
-## ✅ Lighthouse Score
+## 🚀 Featured Projects
 
-![performance](https://github.com/user-attachments/assets/4f95e2ca-03f9-4996-9e34-dcd179194c58)
+*   **MU Clubbie (Admin System):** A full-stack club management dashboard built for Mahidol University using NestJS, Node.js, and MongoDB.
+*   **Mobile Application Development:** A mobile frontend application focused on UX/accessibility, designed in Figma and developed using Flutter.
 
-## 🚀 Getting Started
+## 🛠️ Getting Started (Local Development)
 
-Clone this repository to your local machine using Git.
+If you want to run this project locally, follow these steps:
 
-```scheme
-git clone https://github.com/immois/astro-zen.git
-cd astro-zen
+1. Clone this repository:
+   ```bash
+   git clone [https://github.com/sukkamit/sukkamit-portfolio.git](https://github.com/sukkamit/sukkamit-portfolio.git)
+   cd sukkamit-portfolio
+
 ```
 
-| Command        | Action                                       |
-| :------------- | :------------------------------------------- |
-| `pnpm install` | Installs dependencies                        |
-| `pnpm dev`     | Starts local dev server at `localhost:4321`  |
-| `pnpm build`   | Build your production site to `./dist/`      |
-| `pnpm preview` | Preview your build locally, before deploying |
+2. Run the following commands:
+
+| Command | Action |
+| --- | --- |
+| `npm install` | Installs dependencies |
+| `npm run dev` | Starts local dev server at `localhost:4321` |
+| `npm run build` | Build your production site to `./dist/` |
+
+## 📫 Let's Connect
+
+* **LinkedIn:** [linkedin.com/in/sukkamit](https://linkedin.com/in/sukkamit)
+* **GitHub:** [github.com/sukkamit](https://github.com/sukkamit)
+* **Email:** sukkamit.sin@gmail.com
+
+---
+
+*Template originally inspired by [AstroZen](https://github.com/immois/astro-zen).*
+
+```
+
+```
