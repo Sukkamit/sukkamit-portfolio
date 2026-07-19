@@ -1,23 +1,20 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Sukkamit Sinarpa — Backend, QA & Full-Stack Developer",
+  author: "Sukkamit Sinarpa",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Backend Developer with expertise in Node.js, NestJS, and the MERN stack. Experienced in building RESTful APIs and conducting QA testing.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "https://github.com/sukkamit.png",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "LinkedIn", href: "https://linkedin.com/in/sukkamit" },
+    { text: "Github", href: "https://github.com/sukkamit" },
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
@@ -25,74 +22,59 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Sukkamit Sinarpa",
+    specialty: "Backend | QA | Full Stack",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "Backend Developer with expertise in Node.js, NestJS, and the MERN stack. Experienced in building RESTful APIs, designing databases, and conducting QA testing to deliver scalable and efficient enterprise applications.",
+    email: "sukkamit.sin@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "Ministry of Public Health",
+      position: "Backend Developer (Intern)",
+      startDate: "June 2025", 
+      endDate: "November 2025", 
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Completed a comprehensive 6-month internship program (ITDS397 & ITDS499).",
+        "Developed the backend system for the corporate equipment management project.",
+        "Designed and implemented RESTful APIs for the Equipment Borrowing & Distribution Module and Inspection & Maintenance Module.",
+        "Architected database schemas (Entity) and developed Controllers and Services to handle complex business logic.",
+        "Utilized Node.js, NestJS, and database management tools to ensure system stability and performance.",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "FREEDOMVERSE CO., LTD.",
+      position: "Quality Assurance (QA) Intern",
+      startDate: "June 2024",
+      endDate: "July 2024",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Conducted manual testing and created comprehensive test cases to ensure software quality and reliability.",
+        "Developed automated test scripts using Robot Framework and Selenium for UI and integration testing.",
       ],
-    },
-    {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      name: "MU Clubbie (Admin System)",
+      summary: "Developed the Full-Stack Admin Dashboard for a club management system in a 3-person team. (Demo: popartr81+123@gmail.com | Pass: 12345678)",
+      linkPreview: "https://admin-muclubbie.onrender.com/login",
+      linkSource: "#", 
+      image: "/mu-clubbie.png", 
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
-    },
-    {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      name: "Mobile Application Development",
+      summary: "Designed the UI using Figma and developed the mobile application front-end using the Flutter framework.",
+      linkPreview: "https://www.figma.com/proto/18kWMark7LIbucyYm2470w/Project-Mobile-App?node-id=144-323&p=f&t=RufLFvmPXh46MAIz-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=259%3A770",
+      linkSource: "https://github.com/Chonthichaa1/Project-Mobile-App",
+      image: "/mobile-app.png",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
-
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      I am a recent graduate with a Bachelor of Science in Digital Science and Technology (DST) from Mahidol University. I specialize in Backend Development, Quality Assurance (QA), and Full-Stack Engineering. 
+      
+      My technical toolkit includes Node.js, NestJS, React.js, and MongoDB, alongside automated testing frameworks like Robot Framework and Selenium. I am passionate about creating efficient enterprise systems and ensuring high software quality through rigorous testing methodologies.
     `,
-    image: "/alejandro-big.jpg",
+    image: "https://github.com/sukkamit.png",
   },
 };
-
-// #5755ff
